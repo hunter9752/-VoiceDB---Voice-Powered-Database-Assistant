@@ -1,0 +1,38 @@
+{
+    "name": "nl-db-assistant",
+    "version": "1.0.0",
+    "description": "Natural Language to Database Assistant - MCP Server",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "node --watch index.js",
+        "test": "node index.js --test",
+        "inspect": "npx @modelcontextprotocol/inspector node index.js",
+        "setup": "node scripts/setup.js",
+        "create-sample-db": "node scripts/create-sample-db.js"
+    },
+    "keywords": [
+        "mcp",
+        "model-context-protocol",
+        "database",
+        "natural-language",
+        "sql",
+        "ai-assistant"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^0.5.0",
+        "dotenv": "^16.4.5",
+        "pg": "^8.13.1",
+        "mysql2": "^3.11.5",
+        "better-sqlite3": "^11.7.0"
+    },
+    "devDependencies": {
+        "@modelcontextprotocol/inspector": "^0.1.0"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    }
+}

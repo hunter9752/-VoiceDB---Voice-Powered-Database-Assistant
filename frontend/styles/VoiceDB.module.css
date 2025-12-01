@@ -1,0 +1,6 @@
+﻿/* VoiceDB - All component styles in one clean file */
+
+/* Empty placeholder - using inline styles in components for now */
+.chatTab, .databaseTab, .editorTab, .historyTab, .settingsTab {
+  min-height: 400px;
+}

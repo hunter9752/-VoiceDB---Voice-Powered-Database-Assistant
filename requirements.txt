@@ -1,0 +1,30 @@
+# ============================================================================
+# Updated Requirements - Added asyncpg for Direct PostgreSQL Connection
+# ============================================================================
+
+# Core FastAPI
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+pydantic==2.10.3
+pydantic-settings==2.6.1
+python-dotenv==1.0.1
+
+# Database - UPDATED: Added asyncpg for direct PostgreSQL connection
+asyncpg==0.30.0
+supabase==2.10.0
+psycopg2-binary==2.9.10
+
+# LLM & AI
+groq==0.13.0
+
+# RAG & Embeddings (Optional - currently disabled due to Python 3.13 compatibility)
+# sentence-transformers==3.3.1
+# transformers==4.47.0
+# torch==2.5.1
+
+# Utilities
+httpx==0.28.0
+python-multipart==0.0.18
+
+# Updated numpy for Python 3.13 compatibility
+numpy>=2.0.0
